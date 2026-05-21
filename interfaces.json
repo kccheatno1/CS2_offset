@@ -1,8 +1,4 @@
 {
-  "animationsystem.dll": {
-    "AnimationSystemUtils_001": 8462736,
-    "AnimationSystem_001": 8429744
-  },
   "engine2.dll": {
     "BenchmarkService001": 6367648,
     "BugService001": 9218528,
@@ -38,76 +34,6 @@
     "VENGINE_GAMEUIFUNCS_VERSION005": 6357808,
     "VProfService_001": 6369680
   },
-  "filesystem_stdio.dll": {
-    "VAsyncFileSystem2_001": 2185696,
-    "VFileSystem017": 2185120
-  },
-  "imemanager.dll": {
-    "IMEManager001": 224032
-  },
-  "inputsystem.dll": {
-    "InputStackSystemVersion001": 265776,
-    "InputSystemVersion001": 273232
-  },
-  "localize.dll": {
-    "Localize_001": 401792
-  },
-  "materialsystem2.dll": {
-    "FontManager_001": 1433184,
-    "MaterialUtils_001": 1334592,
-    "PostProcessingSystem_001": 1334352,
-    "TextLayout_001": 1334480,
-    "VMaterialSystem2_001": 1431376
-  },
-  "meshsystem.dll": {
-    "MeshSystem001": 1379360
-  },
-  "networksystem.dll": {
-    "FlattenedSerializersVersion001": 2549584,
-    "NetworkMessagesVersion001": 2714208,
-    "NetworkSystemVersion001": 2653856,
-    "SerializedEntitiesVersion001": 2654096
-  },
-  "panorama.dll": {
-    "PanoramaUIEngine001": 5266720
-  },
-  "panorama_text_pango.dll": {
-    "PanoramaTextServices001": 2853440
-  },
-  "panoramauiclient.dll": {
-    "PanoramaUIClient001": 2712608
-  },
-  "particles.dll": {
-    "ParticleSystemMgr003": 5546864
-  },
-  "pulse_system.dll": {
-    "IPulseSystem_001": 2045600
-  },
-  "rendersystemdx11.dll": {
-    "RenderDeviceMgr001": 4371760,
-    "RenderUtils_001": 4374056,
-    "VRenderDeviceMgrBackdoor001": 4371920
-  },
-  "resourcesystem.dll": {
-    "ResourceSystem013": 537056
-  },
-  "scenesystem.dll": {
-    "RenderingPipelines_001": 6699936,
-    "SceneSystem_002": 9286800,
-    "SceneUtils_001": 6703792
-  },
-  "schemasystem.dll": {
-    "SchemaSystem_001": 485376
-  },
-  "soundsystem.dll": {
-    "SoundOpSystem001": 5319088,
-    "SoundOpSystemEdit001": 5318768,
-    "SoundSystem001": 5317472,
-    "VMixEditTool001": 93620127
-  },
-  "steamaudio.dll": {
-    "SteamAudio001": 2483744
-  },
   "steamclient64.dll": {
     "IVALIDATE001": 23847096,
     "SteamClient006": 23835936,
@@ -137,20 +63,8 @@
     "VProcessUtils002": 3794576,
     "VStringTokenSystem001": 3997872
   },
-  "v8system.dll": {
-    "Source2V8System001": 202544
-  },
-  "vphysics2.dll": {
-    "VPhysics2_Interface_001": 4251040
-  },
-  "vscript.dll": {
-    "VScriptManager010": 1291280
-  },
   "vstdlib_s64.dll": {
     "IVALIDATE001": 457104,
     "VEngineCvar002": 450672
-  },
-  "worldrenderer.dll": {
-    "WorldRendererMgr001": 2251872
   }
 }
