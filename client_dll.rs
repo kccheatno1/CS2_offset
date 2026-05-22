@@ -1,12 +1,12 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-05-21 14:50:14.439791 UTC
+// 2026-05-22 07:45:48.094825800 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
 pub mod cs2_dumper {
     pub mod schemas {
         // Module: client.dll
-        // Class count: 535
+        // Class count: 556
         // Enum count: 12
         pub mod client_dll {
             // Alignment: 4
@@ -1357,7 +1357,7 @@ pub mod cs2_dumper {
                 pub const m_ullRegisteredAsItemID: usize = 0x4C8; // uint64
             }
             // Parent: C_BasePlayerWeapon
-            // Field count: 53
+            // Field count: 54
             pub mod C_CSWeaponBase {
                 pub const m_iWeaponGameplayAnimState: usize = 0x1758; // WeaponGameplayAnimState
                 pub const m_flWeaponGameplayAnimStateTimestamp: usize = 0x175C; // GameTime_t
@@ -1397,16 +1397,17 @@ pub mod cs2_dumper {
                 pub const m_bVisualsDataSet: usize = 0x18B9; // bool
                 pub const m_bUIWeapon: usize = 0x18BA; // bool
                 pub const m_nCustomEconReloadEventId: usize = 0x18BC; // int32
-                pub const m_nextPrevOwnerUseTime: usize = 0x18C8; // GameTime_t
-                pub const m_hPrevOwner: usize = 0x18CC; // CHandle<C_CSPlayerPawn>
-                pub const m_nDropTick: usize = 0x18D0; // GameTick_t
-                pub const m_bWasActiveWeaponWhenDropped: usize = 0x18D4; // bool
-                pub const m_donated: usize = 0x18F4; // bool
-                pub const m_fLastShotTime: usize = 0x18F8; // GameTime_t
-                pub const m_bWasOwnedByCT: usize = 0x18FC; // bool
-                pub const m_bWasOwnedByTerrorist: usize = 0x18FD; // bool
-                pub const m_flNextClientFireBulletTime: usize = 0x1900; // float32
-                pub const m_flNextClientFireBulletTime_Repredict: usize = 0x1904; // float32
+                pub const m_bCanBePickedUp: usize = 0x18C8; // bool
+                pub const m_nextPrevOwnerUseTime: usize = 0x18CC; // GameTime_t
+                pub const m_hPrevOwner: usize = 0x18D0; // CHandle<C_CSPlayerPawn>
+                pub const m_nDropTick: usize = 0x18D4; // GameTick_t
+                pub const m_bWasActiveWeaponWhenDropped: usize = 0x18D8; // bool
+                pub const m_donated: usize = 0x18FC; // bool
+                pub const m_fLastShotTime: usize = 0x1900; // GameTime_t
+                pub const m_bWasOwnedByCT: usize = 0x1904; // bool
+                pub const m_bWasOwnedByTerrorist: usize = 0x1905; // bool
+                pub const m_flNextClientFireBulletTime: usize = 0x1908; // float32
+                pub const m_flNextClientFireBulletTime_Repredict: usize = 0x190C; // float32
                 pub const m_IronSightController: usize = 0x1960; // C_IronSightController
                 pub const m_iIronSightMode: usize = 0x1A10; // int32
                 pub const m_flLastLOSTraceFailureTime: usize = 0x1A88; // GameTime_t
@@ -5821,6 +5822,90 @@ pub mod cs2_dumper {
                 pub const m_PreGenerationKVs: usize = 0x18; // KeyValues3
                 pub const m_FinalKVs: usize = 0x58; // KeyValues3
                 pub const m_vecGeneratedTextures: usize = 0x80; // CUtlVector<GeneratedTextureHandle_t>
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_TYPE_LITERAL {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_BIAS_TYPE_STANDARD {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_NOISE_TURB_NONE {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_TYPE_LITERAL {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_BIAS_TYPE_STANDARD {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_NOISE_TURB_NONE {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_TYPE_LITERAL {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_BIAS_TYPE_STANDARD {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_NOISE_TURB_NONE {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _ {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_BIAS_TYPE_STANDARD {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod PF_NOISE_TURB_NONE {
+            }
+            // Parent: None
+            // Field count: 0
+            pub mod _P_C__ {
             }
         }
     }

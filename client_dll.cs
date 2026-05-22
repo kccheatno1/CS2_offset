@@ -1,9 +1,9 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-05-21 14:50:14.439791 UTC
+// 2026-05-22 07:45:48.094825800 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 535
+    // Class count: 556
     // Enum count: 12
     public static class ClientDll {
         // Alignment: 4
@@ -1342,7 +1342,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_ullRegisteredAsItemID = 0x4C8; // uint64
         }
         // Parent: C_BasePlayerWeapon
-        // Field count: 53
+        // Field count: 54
         public static class C_CSWeaponBase {
             public const nint m_iWeaponGameplayAnimState = 0x1758; // WeaponGameplayAnimState
             public const nint m_flWeaponGameplayAnimStateTimestamp = 0x175C; // GameTime_t
@@ -1382,16 +1382,17 @@ namespace CS2Dumper.Schemas {
             public const nint m_bVisualsDataSet = 0x18B9; // bool
             public const nint m_bUIWeapon = 0x18BA; // bool
             public const nint m_nCustomEconReloadEventId = 0x18BC; // int32
-            public const nint m_nextPrevOwnerUseTime = 0x18C8; // GameTime_t
-            public const nint m_hPrevOwner = 0x18CC; // CHandle<C_CSPlayerPawn>
-            public const nint m_nDropTick = 0x18D0; // GameTick_t
-            public const nint m_bWasActiveWeaponWhenDropped = 0x18D4; // bool
-            public const nint m_donated = 0x18F4; // bool
-            public const nint m_fLastShotTime = 0x18F8; // GameTime_t
-            public const nint m_bWasOwnedByCT = 0x18FC; // bool
-            public const nint m_bWasOwnedByTerrorist = 0x18FD; // bool
-            public const nint m_flNextClientFireBulletTime = 0x1900; // float32
-            public const nint m_flNextClientFireBulletTime_Repredict = 0x1904; // float32
+            public const nint m_bCanBePickedUp = 0x18C8; // bool
+            public const nint m_nextPrevOwnerUseTime = 0x18CC; // GameTime_t
+            public const nint m_hPrevOwner = 0x18D0; // CHandle<C_CSPlayerPawn>
+            public const nint m_nDropTick = 0x18D4; // GameTick_t
+            public const nint m_bWasActiveWeaponWhenDropped = 0x18D8; // bool
+            public const nint m_donated = 0x18FC; // bool
+            public const nint m_fLastShotTime = 0x1900; // GameTime_t
+            public const nint m_bWasOwnedByCT = 0x1904; // bool
+            public const nint m_bWasOwnedByTerrorist = 0x1905; // bool
+            public const nint m_flNextClientFireBulletTime = 0x1908; // float32
+            public const nint m_flNextClientFireBulletTime_Repredict = 0x190C; // float32
             public const nint m_IronSightController = 0x1960; // C_IronSightController
             public const nint m_iIronSightMode = 0x1A10; // int32
             public const nint m_flLastLOSTraceFailureTime = 0x1A88; // GameTime_t
@@ -5806,6 +5807,90 @@ namespace CS2Dumper.Schemas {
             public const nint m_PreGenerationKVs = 0x18; // KeyValues3
             public const nint m_FinalKVs = 0x58; // KeyValues3
             public const nint m_vecGeneratedTextures = 0x80; // CUtlVector<GeneratedTextureHandle_t>
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_TYPE_LITERAL {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_BIAS_TYPE_STANDARD {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_NOISE_TURB_NONE {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_TYPE_LITERAL {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_BIAS_TYPE_STANDARD {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_NOISE_TURB_NONE {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_TYPE_LITERAL {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_BIAS_TYPE_STANDARD {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_NOISE_TURB_NONE {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _ {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_BIAS_TYPE_STANDARD {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class PF_NOISE_TURB_NONE {
+        }
+        // Parent: None
+        // Field count: 0
+        public static class _P_C__ {
         }
     }
 }
