@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-05-22 07:45:48.094825800 UTC
+// 2026-05-29 02:48:47.573677100 UTC
 
 #pragma once
 
@@ -9,7 +9,7 @@
 namespace cs2_dumper {
     namespace schemas {
         // Module: client.dll
-        // Class count: 556
+        // Class count: 535
         // Enum count: 12
         namespace client_dll {
             // Alignment: 4
@@ -5813,90 +5813,6 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_PreGenerationKVs = 0x18; // KeyValues3
                 constexpr std::ptrdiff_t m_FinalKVs = 0x58; // KeyValues3
                 constexpr std::ptrdiff_t m_vecGeneratedTextures = 0x80; // CUtlVector<GeneratedTextureHandle_t>
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_TYPE_LITERAL {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_BIAS_TYPE_STANDARD {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_NOISE_TURB_NONE {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_TYPE_LITERAL {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_BIAS_TYPE_STANDARD {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_NOISE_TURB_NONE {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_TYPE_LITERAL {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_BIAS_TYPE_STANDARD {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_NOISE_TURB_NONE {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _ {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_BIAS_TYPE_STANDARD {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace PF_NOISE_TURB_NONE {
-            }
-            // Parent: None
-            // Field count: 0
-            namespace _P_C__ {
             }
         }
     }

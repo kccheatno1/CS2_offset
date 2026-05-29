@@ -1,9 +1,9 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-05-22 07:45:48.094825800 UTC
+// 2026-05-29 02:48:47.573677100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
-    // Class count: 556
+    // Class count: 535
     // Enum count: 12
     public static class ClientDll {
         // Alignment: 4
@@ -5807,90 +5807,6 @@ namespace CS2Dumper.Schemas {
             public const nint m_PreGenerationKVs = 0x18; // KeyValues3
             public const nint m_FinalKVs = 0x58; // KeyValues3
             public const nint m_vecGeneratedTextures = 0x80; // CUtlVector<GeneratedTextureHandle_t>
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_TYPE_LITERAL {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_BIAS_TYPE_STANDARD {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_NOISE_TURB_NONE {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_TYPE_LITERAL {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_BIAS_TYPE_STANDARD {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_NOISE_TURB_NONE {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_TYPE_LITERAL {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_BIAS_TYPE_STANDARD {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_NOISE_TURB_NONE {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _ {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_BIAS_TYPE_STANDARD {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class PF_NOISE_TURB_NONE {
-        }
-        // Parent: None
-        // Field count: 0
-        public static class _P_C__ {
         }
     }
 }

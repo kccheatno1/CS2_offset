@@ -1,10 +1,10 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-05-22 07:45:48.094825800 UTC
+// 2026-05-29 02:48:47.573677100 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
         // Module: client.dll
-        // Class count: 556
+        // Class count: 535
         // Enum count: 12
         pub const client_dll = struct {
             // Alignment: 4
@@ -5808,90 +5808,6 @@ pub const cs2_dumper = struct {
                 pub const m_PreGenerationKVs: usize = 0x18; // KeyValues3
                 pub const m_FinalKVs: usize = 0x58; // KeyValues3
                 pub const m_vecGeneratedTextures: usize = 0x80; // CUtlVector<GeneratedTextureHandle_t>
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_TYPE_LITERAL = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_BIAS_TYPE_STANDARD = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_NOISE_TURB_NONE = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_TYPE_LITERAL = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_BIAS_TYPE_STANDARD = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_NOISE_TURB_NONE = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_TYPE_LITERAL = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_BIAS_TYPE_STANDARD = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_NOISE_TURB_NONE = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _ = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_BIAS_TYPE_STANDARD = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const PF_NOISE_TURB_NONE = struct {
-            };
-            // Parent: None
-            // Field count: 0
-            pub const _P_C__ = struct {
             };
         };
     };
