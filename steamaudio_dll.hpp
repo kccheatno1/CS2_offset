@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-03 23:24:46.012645 UTC
+// 2026-07-08 23:43:41.260767600 UTC
 
 #pragma once
 
@@ -112,7 +112,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_probes = 0x10; // CSteamAudioProbeData
                 constexpr std::ptrdiff_t m_vecPathingRatio = 0x18; // CUtlVector<float32>
                 constexpr std::ptrdiff_t m_vecPathingDeviation = 0x30; // CUtlVector<float32>
-                constexpr std::ptrdiff_t m_vecReflectionRatio = 0x48; // CUtlVector<float32>
+                constexpr std::ptrdiff_t m_vecReflectionEnergy = 0x48; // CUtlVector<float32>
             }
             // Parent: None
             // Field count: 12
