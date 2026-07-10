@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-07-10 04:36:09.570303700 UTC
+// 2026-07-10 07:51:31.975811300 UTC
 
 #pragma once
 
@@ -19,8 +19,10 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwGlowManager = 0x23A0708;
             constexpr std::ptrdiff_t dwLocalPlayerController = 0x237EBA0;
             constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x23A4238;
+            constexpr std::ptrdiff_t dwPlantedC4 = 0x236E678;
             constexpr std::ptrdiff_t dwPrediction = 0x23A4140;
             constexpr std::ptrdiff_t dwSensitivity = 0x23A1228;
+            constexpr std::ptrdiff_t dwSensitivity_sensitivity = 0x58;
             constexpr std::ptrdiff_t dwViewAngles = 0x23B9C78;
             constexpr std::ptrdiff_t dwViewMatrix = 0x23A9340;
             constexpr std::ptrdiff_t dwViewRender = 0x23A9398;
@@ -32,6 +34,7 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwNetworkGameClient = 0x90D4B0;
             constexpr std::ptrdiff_t dwNetworkGameClient_clientTickCount = 0x378;
             constexpr std::ptrdiff_t dwNetworkGameClient_deltaTick = 0x24C;
+            constexpr std::ptrdiff_t dwNetworkGameClient_isBackgroundMap = 0x2C141F;
             constexpr std::ptrdiff_t dwNetworkGameClient_localPlayer = 0xF8;
             constexpr std::ptrdiff_t dwNetworkGameClient_maxClients = 0x240;
             constexpr std::ptrdiff_t dwNetworkGameClient_serverTickCount = 0x24C;
@@ -49,6 +52,7 @@ namespace cs2_dumper {
         }
         // Module: soundsystem.dll
         namespace soundsystem_dll {
+            constexpr std::ptrdiff_t dwSoundSystem = 0x54B5D0;
             constexpr std::ptrdiff_t dwSoundSystem_engineViewData = 0x7C;
         }
     }
