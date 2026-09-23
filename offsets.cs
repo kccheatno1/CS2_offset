@@ -15,6 +15,8 @@ namespace CS2Dumper.Offsets {
         public const nint dwLocalPlayerPawn = 0x255B598;
         public const nint dwPlantedC4 = 0x24C3D28;
         public const nint dwPrediction = 0x255B4A0;
+        public const nint dwSensitivity = 0x254D2D8;
+        public const nint dwSensitivity_sensitivity = 0x58;
         public const nint dwViewAngles = 0x2571108;
         public const nint dwViewMatrix = 0x25608E0;
         public const nint dwViewRender = 0x25611A0;
@@ -45,5 +47,6 @@ namespace CS2Dumper.Offsets {
     // Module: soundsystem.dll
     public static class SoundsystemDll {
         public const nint dwSoundSystem = 0x535340;
+        public const nint dwSoundSystem_engineViewData = 0x6C;
     }
 }

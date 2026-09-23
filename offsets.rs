@@ -18,6 +18,8 @@ pub mod cs2_dumper {
             pub const dwLocalPlayerPawn: usize = 0x255B598;
             pub const dwPlantedC4: usize = 0x24C3D28;
             pub const dwPrediction: usize = 0x255B4A0;
+            pub const dwSensitivity: usize = 0x254D2D8;
+            pub const dwSensitivity_sensitivity: usize = 0x58;
             pub const dwViewAngles: usize = 0x2571108;
             pub const dwViewMatrix: usize = 0x25608E0;
             pub const dwViewRender: usize = 0x25611A0;
@@ -48,6 +50,7 @@ pub mod cs2_dumper {
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
             pub const dwSoundSystem: usize = 0x535340;
+            pub const dwSoundSystem_engineViewData: usize = 0x6C;
         }
     }
 }
