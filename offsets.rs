@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-23 01:00:47.907523 UTC
+// 2026-09-23 00:00:12.193049500 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -18,8 +18,6 @@ pub mod cs2_dumper {
             pub const dwLocalPlayerPawn: usize = 0x255B598;
             pub const dwPlantedC4: usize = 0x24C3D28;
             pub const dwPrediction: usize = 0x255B4A0;
-            pub const dwSensitivity: usize = 0x254D2D8;
-            pub const dwSensitivity_sensitivity: usize = 0x58;
             pub const dwViewAngles: usize = 0x2571108;
             pub const dwViewMatrix: usize = 0x25608E0;
             pub const dwViewRender: usize = 0x25611A0;
