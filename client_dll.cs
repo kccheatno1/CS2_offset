@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-25 01:14:28.471733100 UTC
+// 2026-09-26 01:53:54.226750600 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: client.dll
@@ -3682,7 +3682,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_petItem = 0x1730; // C_EconItemView
         }
         // Parent: None
-        // Field count: 10
+        // Field count: 11
         public static class C_SmokeGrenadeProjectile {
             public const nint m_nSmokeEffectTickBegin = 0x1360; // int32
             public const nint m_bDidSmokeEffect = 0x1364; // bool
@@ -3692,8 +3692,9 @@ namespace CS2Dumper.Schemas {
             public const nint m_VoxelFrameData = 0x1388; // C_NetworkUtlVectorBase<uint8>
             public const nint m_nVoxelFrameDataSize = 0x13A0; // int32
             public const nint m_nVoxelUpdate = 0x13A4; // int32
-            public const nint m_bSmokeVolumeDataReceived = 0x13A8; // bool
-            public const nint m_bSmokeEffectSpawned = 0x13A9; // bool
+            public const nint m_nSmokeLightProbeRegen = 0x13A8; // uint8
+            public const nint m_bSmokeVolumeDataReceived = 0x13A9; // bool
+            public const nint m_bSmokeEffectSpawned = 0x13AA; // bool
         }
         // Parent: None
         // Field count: 1

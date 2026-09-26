@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-25 01:14:28.471733100 UTC
+// 2026-09-26 01:53:54.226750600 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
@@ -3683,7 +3683,7 @@ pub const cs2_dumper = struct {
                 pub const m_petItem: usize = 0x1730; // C_EconItemView
             };
             // Parent: None
-            // Field count: 10
+            // Field count: 11
             pub const C_SmokeGrenadeProjectile = struct {
                 pub const m_nSmokeEffectTickBegin: usize = 0x1360; // int32
                 pub const m_bDidSmokeEffect: usize = 0x1364; // bool
@@ -3693,8 +3693,9 @@ pub const cs2_dumper = struct {
                 pub const m_VoxelFrameData: usize = 0x1388; // C_NetworkUtlVectorBase<uint8>
                 pub const m_nVoxelFrameDataSize: usize = 0x13A0; // int32
                 pub const m_nVoxelUpdate: usize = 0x13A4; // int32
-                pub const m_bSmokeVolumeDataReceived: usize = 0x13A8; // bool
-                pub const m_bSmokeEffectSpawned: usize = 0x13A9; // bool
+                pub const m_nSmokeLightProbeRegen: usize = 0x13A8; // uint8
+                pub const m_bSmokeVolumeDataReceived: usize = 0x13A9; // bool
+                pub const m_bSmokeEffectSpawned: usize = 0x13AA; // bool
             };
             // Parent: None
             // Field count: 1
