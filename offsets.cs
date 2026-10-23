@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-10-23 00:03:14.474855400 UTC
+// 2026-10-23 00:10:22.743394400 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
@@ -15,6 +15,8 @@ namespace CS2Dumper.Offsets {
         public const nint dwLocalPlayerPawn = 0x25676D8;
         public const nint dwPlantedC4 = 0x24CD930;
         public const nint dwPrediction = 0x25675E0;
+        public const nint dwSensitivity = 0x25649D8;
+        public const nint dwSensitivity_sensitivity = 0x58;
         public const nint dwViewAngles = 0x257DE08;
         public const nint dwViewMatrix = 0x256CFE0;
         public const nint dwViewRender = 0x256D9A8;
@@ -45,5 +47,6 @@ namespace CS2Dumper.Offsets {
     // Module: soundsystem.dll
     public static class SoundsystemDll {
         public const nint dwSoundSystem = 0x532460;
+        public const nint dwSoundSystem_engineViewData = 0x6C;
     }
 }

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-10-23 00:03:14.474855400 UTC
+// 2026-10-23 00:10:22.743394400 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -18,6 +18,8 @@ pub mod cs2_dumper {
             pub const dwLocalPlayerPawn: usize = 0x25676D8;
             pub const dwPlantedC4: usize = 0x24CD930;
             pub const dwPrediction: usize = 0x25675E0;
+            pub const dwSensitivity: usize = 0x25649D8;
+            pub const dwSensitivity_sensitivity: usize = 0x58;
             pub const dwViewAngles: usize = 0x257DE08;
             pub const dwViewMatrix: usize = 0x256CFE0;
             pub const dwViewRender: usize = 0x256D9A8;
@@ -48,6 +50,7 @@ pub mod cs2_dumper {
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
             pub const dwSoundSystem: usize = 0x532460;
+            pub const dwSoundSystem_engineViewData: usize = 0x6C;
         }
     }
 }
