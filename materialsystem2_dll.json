@@ -3,10 +3,7 @@
     "classes": {
       "MaterialParamBuffer_t": {
         "fields": {
-          "m_value": {
-            "offset": 8,
-            "type": "CUtlBinaryBlock"
-          }
+          "m_value": 8
         },
         "metadata": [
           {
@@ -18,10 +15,7 @@
       },
       "MaterialParamFloat_t": {
         "fields": {
-          "m_flValue": {
-            "offset": 8,
-            "type": "float32"
-          }
+          "m_flValue": 8
         },
         "metadata": [
           {
@@ -33,10 +27,7 @@
       },
       "MaterialParamInt_t": {
         "fields": {
-          "m_nValue": {
-            "offset": 8,
-            "type": "int32"
-          }
+          "m_nValue": 8
         },
         "metadata": [
           {
@@ -48,10 +39,7 @@
       },
       "MaterialParamString_t": {
         "fields": {
-          "m_value": {
-            "offset": 8,
-            "type": "CUtlString"
-          }
+          "m_value": 8
         },
         "metadata": [
           {
@@ -63,10 +51,7 @@
       },
       "MaterialParamTexture_t": {
         "fields": {
-          "m_pValue": {
-            "offset": 8,
-            "type": "CStrongHandle<InfoForResourceTypeCTextureBase>"
-          }
+          "m_pValue": 8
         },
         "metadata": [
           {
@@ -78,10 +63,7 @@
       },
       "MaterialParamVector_t": {
         "fields": {
-          "m_value": {
-            "offset": 8,
-            "type": "Vector4D"
-          }
+          "m_value": 8
         },
         "metadata": [
           {
@@ -93,10 +75,7 @@
       },
       "MaterialParam_t": {
         "fields": {
-          "m_name": {
-            "offset": 0,
-            "type": "CUtlString"
-          }
+          "m_name": 0
         },
         "metadata": [
           {
@@ -108,62 +87,20 @@
       },
       "MaterialResourceData_t": {
         "fields": {
-          "m_dynamicParams": {
-            "offset": 112,
-            "type": "CUtlVector<MaterialParamBuffer_t>"
-          },
-          "m_dynamicTextureParams": {
-            "offset": 136,
-            "type": "CUtlVector<MaterialParamBuffer_t>"
-          },
-          "m_floatAttributes": {
-            "offset": 184,
-            "type": "CUtlVector<MaterialParamFloat_t>"
-          },
-          "m_floatParams": {
-            "offset": 40,
-            "type": "CUtlVector<MaterialParamFloat_t>"
-          },
-          "m_intAttributes": {
-            "offset": 160,
-            "type": "CUtlVector<MaterialParamInt_t>"
-          },
-          "m_intParams": {
-            "offset": 16,
-            "type": "CUtlVector<MaterialParamInt_t>"
-          },
-          "m_materialName": {
-            "offset": 0,
-            "type": "CUtlString"
-          },
-          "m_renderAttributesUsed": {
-            "offset": 280,
-            "type": "CUtlVector<CUtlString>"
-          },
-          "m_shaderName": {
-            "offset": 8,
-            "type": "CUtlString"
-          },
-          "m_stringAttributes": {
-            "offset": 256,
-            "type": "CUtlVector<MaterialParamString_t>"
-          },
-          "m_textureAttributes": {
-            "offset": 232,
-            "type": "CUtlVector<MaterialParamTexture_t>"
-          },
-          "m_textureParams": {
-            "offset": 88,
-            "type": "CUtlVector<MaterialParamTexture_t>"
-          },
-          "m_vectorAttributes": {
-            "offset": 208,
-            "type": "CUtlVector<MaterialParamVector_t>"
-          },
-          "m_vectorParams": {
-            "offset": 64,
-            "type": "CUtlVector<MaterialParamVector_t>"
-          }
+          "m_dynamicParams": 112,
+          "m_dynamicTextureParams": 136,
+          "m_floatAttributes": 184,
+          "m_floatParams": 40,
+          "m_intAttributes": 160,
+          "m_intParams": 16,
+          "m_materialName": 0,
+          "m_renderAttributesUsed": 280,
+          "m_shaderName": 8,
+          "m_stringAttributes": 256,
+          "m_textureAttributes": 232,
+          "m_textureParams": 88,
+          "m_vectorAttributes": 208,
+          "m_vectorParams": 64
         },
         "metadata": [
           {
@@ -175,70 +112,22 @@
       },
       "PostProcessingBloomParameters_t": {
         "fields": {
-          "m_blendMode": {
-            "offset": 0,
-            "type": "BloomBlendMode_t"
-          },
-          "m_flBloomStartValue": {
-            "offset": 28,
-            "type": "float32"
-          },
-          "m_flBloomStrength": {
-            "offset": 4,
-            "type": "float32"
-          },
-          "m_flBloomThreshold": {
-            "offset": 16,
-            "type": "float32"
-          },
-          "m_flBloomThresholdWidth": {
-            "offset": 20,
-            "type": "float32"
-          },
-          "m_flBlurBloomStrength": {
-            "offset": 12,
-            "type": "float32"
-          },
-          "m_flBlurWeight": {
-            "offset": 56,
-            "type": "float32[5]"
-          },
-          "m_flComputeBloomEffectsScale": {
-            "offset": 44,
-            "type": "float32"
-          },
-          "m_flComputeBloomLensDirtBlackLevel": {
-            "offset": 52,
-            "type": "float32"
-          },
-          "m_flComputeBloomLensDirtStrength": {
-            "offset": 48,
-            "type": "float32"
-          },
-          "m_flComputeBloomRadius": {
-            "offset": 40,
-            "type": "float32"
-          },
-          "m_flComputeBloomStrength": {
-            "offset": 32,
-            "type": "float32"
-          },
-          "m_flComputeBloomThreshold": {
-            "offset": 36,
-            "type": "float32"
-          },
-          "m_flScreenBloomStrength": {
-            "offset": 8,
-            "type": "float32"
-          },
-          "m_flSkyboxBloomStrength": {
-            "offset": 24,
-            "type": "float32"
-          },
-          "m_vBlurTint": {
-            "offset": 76,
-            "type": "Vector[5]"
-          }
+          "m_blendMode": 0,
+          "m_flBloomStartValue": 28,
+          "m_flBloomStrength": 4,
+          "m_flBloomThreshold": 16,
+          "m_flBloomThresholdWidth": 20,
+          "m_flBlurBloomStrength": 12,
+          "m_flBlurWeight": 56,
+          "m_flComputeBloomEffectsScale": 44,
+          "m_flComputeBloomLensDirtBlackLevel": 52,
+          "m_flComputeBloomLensDirtStrength": 48,
+          "m_flComputeBloomRadius": 40,
+          "m_flComputeBloomStrength": 32,
+          "m_flComputeBloomThreshold": 36,
+          "m_flScreenBloomStrength": 8,
+          "m_flSkyboxBloomStrength": 24,
+          "m_vBlurTint": 76
         },
         "metadata": [
           {
@@ -250,38 +139,14 @@
       },
       "PostProcessingFogScatteringParameters_t": {
         "fields": {
-          "m_fCubemapScale": {
-            "offset": 8,
-            "type": "float32"
-          },
-          "m_fGradientScale": {
-            "offset": 16,
-            "type": "float32"
-          },
-          "m_fRadius": {
-            "offset": 0,
-            "type": "float32"
-          },
-          "m_fScale": {
-            "offset": 4,
-            "type": "float32"
-          },
-          "m_fVolumetricScale": {
-            "offset": 12,
-            "type": "float32"
-          },
-          "m_fWaterDensity": {
-            "offset": 24,
-            "type": "float32"
-          },
-          "m_fWaterDepthBlurRadius": {
-            "offset": 28,
-            "type": "float32"
-          },
-          "m_fWaterScale": {
-            "offset": 20,
-            "type": "float32"
-          }
+          "m_fCubemapScale": 8,
+          "m_fGradientScale": 16,
+          "m_fRadius": 0,
+          "m_fScale": 4,
+          "m_fVolumetricScale": 12,
+          "m_fWaterDensity": 24,
+          "m_fWaterDepthBlurRadius": 28,
+          "m_fWaterScale": 20
         },
         "metadata": [
           {
@@ -293,26 +158,11 @@
       },
       "PostProcessingLocalContrastParameters_t": {
         "fields": {
-          "m_flLocalContrastEdgeStrength": {
-            "offset": 4,
-            "type": "float32"
-          },
-          "m_flLocalContrastStrength": {
-            "offset": 0,
-            "type": "float32"
-          },
-          "m_flLocalContrastVignetteBlur": {
-            "offset": 16,
-            "type": "float32"
-          },
-          "m_flLocalContrastVignetteEnd": {
-            "offset": 12,
-            "type": "float32"
-          },
-          "m_flLocalContrastVignetteStart": {
-            "offset": 8,
-            "type": "float32"
-          }
+          "m_flLocalContrastEdgeStrength": 4,
+          "m_flLocalContrastStrength": 0,
+          "m_flLocalContrastVignetteBlur": 16,
+          "m_flLocalContrastVignetteEnd": 12,
+          "m_flLocalContrastVignetteStart": 8
         },
         "metadata": [
           {
@@ -324,22 +174,10 @@
       },
       "PostProcessingLocalExposureParameters_t": {
         "fields": {
-          "m_fBoostLocalContrast": {
-            "offset": 12,
-            "type": "float32"
-          },
-          "m_fHighlightOffsetEV": {
-            "offset": 4,
-            "type": "float32"
-          },
-          "m_fShadowOffsetEV": {
-            "offset": 0,
-            "type": "float32"
-          },
-          "m_fSigma": {
-            "offset": 8,
-            "type": "float32"
-          }
+          "m_fBoostLocalContrast": 12,
+          "m_fHighlightOffsetEV": 4,
+          "m_fShadowOffsetEV": 0,
+          "m_fSigma": 8
         },
         "metadata": [
           {
@@ -351,66 +189,21 @@
       },
       "PostProcessingResource_t": {
         "fields": {
-          "m_bHasBloomParams": {
-            "offset": 64,
-            "type": "bool"
-          },
-          "m_bHasColorCorrection": {
-            "offset": 288,
-            "type": "bool"
-          },
-          "m_bHasFogScatteringParams": {
-            "offset": 289,
-            "type": "bool"
-          },
-          "m_bHasLocalContrastParams": {
-            "offset": 244,
-            "type": "bool"
-          },
-          "m_bHasLocalExposureParams": {
-            "offset": 324,
-            "type": "bool"
-          },
-          "m_bHasTonemapParams": {
-            "offset": 0,
-            "type": "bool"
-          },
-          "m_bHasVignetteParams": {
-            "offset": 204,
-            "type": "bool"
-          },
-          "m_bloomParams": {
-            "offset": 68,
-            "type": "PostProcessingBloomParameters_t"
-          },
-          "m_colorCorrectionVolumeData": {
-            "offset": 272,
-            "type": "CUtlBinaryBlock"
-          },
-          "m_fogScatteringParams": {
-            "offset": 292,
-            "type": "PostProcessingFogScatteringParameters_t"
-          },
-          "m_localConstrastParams": {
-            "offset": 248,
-            "type": "PostProcessingLocalContrastParameters_t"
-          },
-          "m_localExposureParams": {
-            "offset": 328,
-            "type": "PostProcessingLocalExposureParameters_t"
-          },
-          "m_nColorCorrectionVolumeDim": {
-            "offset": 268,
-            "type": "int32"
-          },
-          "m_toneMapParams": {
-            "offset": 4,
-            "type": "PostProcessingTonemapParameters_t"
-          },
-          "m_vignetteParams": {
-            "offset": 208,
-            "type": "PostProcessingVignetteParameters_t"
-          }
+          "m_bHasBloomParams": 64,
+          "m_bHasColorCorrection": 288,
+          "m_bHasFogScatteringParams": 289,
+          "m_bHasLocalContrastParams": 244,
+          "m_bHasLocalExposureParams": 324,
+          "m_bHasTonemapParams": 0,
+          "m_bHasVignetteParams": 204,
+          "m_bloomParams": 68,
+          "m_colorCorrectionVolumeData": 272,
+          "m_fogScatteringParams": 292,
+          "m_localConstrastParams": 248,
+          "m_localExposureParams": 328,
+          "m_nColorCorrectionVolumeDim": 268,
+          "m_toneMapParams": 4,
+          "m_vignetteParams": 208
         },
         "metadata": [
           {
@@ -422,66 +215,21 @@
       },
       "PostProcessingTonemapParameters_t": {
         "fields": {
-          "m_flExposureBias": {
-            "offset": 0,
-            "type": "float32"
-          },
-          "m_flExposureBiasHighlights": {
-            "offset": 40,
-            "type": "float32"
-          },
-          "m_flExposureBiasShadows": {
-            "offset": 36,
-            "type": "float32"
-          },
-          "m_flLinearAngle": {
-            "offset": 12,
-            "type": "float32"
-          },
-          "m_flLinearStrength": {
-            "offset": 8,
-            "type": "float32"
-          },
-          "m_flLuminanceSource": {
-            "offset": 32,
-            "type": "float32"
-          },
-          "m_flMaxHighlightLum": {
-            "offset": 56,
-            "type": "float32"
-          },
-          "m_flMaxShadowLum": {
-            "offset": 48,
-            "type": "float32"
-          },
-          "m_flMinHighlightLum": {
-            "offset": 52,
-            "type": "float32"
-          },
-          "m_flMinShadowLum": {
-            "offset": 44,
-            "type": "float32"
-          },
-          "m_flShoulderStrength": {
-            "offset": 4,
-            "type": "float32"
-          },
-          "m_flToeDenom": {
-            "offset": 24,
-            "type": "float32"
-          },
-          "m_flToeNum": {
-            "offset": 20,
-            "type": "float32"
-          },
-          "m_flToeStrength": {
-            "offset": 16,
-            "type": "float32"
-          },
-          "m_flWhitePoint": {
-            "offset": 28,
-            "type": "float32"
-          }
+          "m_flExposureBias": 0,
+          "m_flExposureBiasHighlights": 40,
+          "m_flExposureBiasShadows": 36,
+          "m_flLinearAngle": 12,
+          "m_flLinearStrength": 8,
+          "m_flLuminanceSource": 32,
+          "m_flMaxHighlightLum": 56,
+          "m_flMaxShadowLum": 48,
+          "m_flMinHighlightLum": 52,
+          "m_flMinShadowLum": 44,
+          "m_flShoulderStrength": 4,
+          "m_flToeDenom": 24,
+          "m_flToeNum": 20,
+          "m_flToeStrength": 16,
+          "m_flWhitePoint": 28
         },
         "metadata": [
           {
@@ -493,30 +241,12 @@
       },
       "PostProcessingVignetteParameters_t": {
         "fields": {
-          "m_flFeather": {
-            "offset": 20,
-            "type": "float32"
-          },
-          "m_flRadius": {
-            "offset": 12,
-            "type": "float32"
-          },
-          "m_flRoundness": {
-            "offset": 16,
-            "type": "float32"
-          },
-          "m_flVignetteStrength": {
-            "offset": 0,
-            "type": "float32"
-          },
-          "m_vCenter": {
-            "offset": 4,
-            "type": "Vector2D"
-          },
-          "m_vColorTint": {
-            "offset": 24,
-            "type": "Vector"
-          }
+          "m_flFeather": 20,
+          "m_flRadius": 12,
+          "m_flRoundness": 16,
+          "m_flVignetteStrength": 0,
+          "m_vCenter": 4,
+          "m_vColorTint": 24
         },
         "metadata": [
           {

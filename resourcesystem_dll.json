@@ -3,50 +3,26 @@
     "classes": {
       "AABBWS_t": {
         "fields": {
-          "m_vMaxBounds": {
-            "offset": 12,
-            "type": "VectorWS"
-          },
-          "m_vMinBounds": {
-            "offset": 0,
-            "type": "VectorWS"
-          }
+          "m_vMaxBounds": 12,
+          "m_vMinBounds": 0
         },
         "metadata": [],
         "parent": null
       },
       "AABB_t": {
         "fields": {
-          "m_vMaxBounds": {
-            "offset": 12,
-            "type": "Vector"
-          },
-          "m_vMinBounds": {
-            "offset": 0,
-            "type": "Vector"
-          }
+          "m_vMaxBounds": 12,
+          "m_vMinBounds": 0
         },
         "metadata": [],
         "parent": null
       },
       "CFuseProgram": {
         "fields": {
-          "m_nMaxTempVarsUsed": {
-            "offset": 72,
-            "type": "int32"
-          },
-          "m_programBuffer": {
-            "offset": 0,
-            "type": "CUtlVector<uint8>"
-          },
-          "m_variablesRead": {
-            "offset": 24,
-            "type": "CUtlVector<FuseVariableIndex_t>"
-          },
-          "m_variablesWritten": {
-            "offset": 48,
-            "type": "CUtlVector<FuseVariableIndex_t>"
-          }
+          "m_nMaxTempVarsUsed": 72,
+          "m_programBuffer": 0,
+          "m_variablesRead": 24,
+          "m_variablesWritten": 48
         },
         "metadata": [
           {
@@ -58,30 +34,12 @@
       },
       "CFuseSymbolTable": {
         "fields": {
-          "m_constantMap": {
-            "offset": 72,
-            "type": "CUtlHashtable<CUtlStringToken,int32>"
-          },
-          "m_constants": {
-            "offset": 0,
-            "type": "CUtlVector<ConstantInfo_t>"
-          },
-          "m_functionMap": {
-            "offset": 136,
-            "type": "CUtlHashtable<CUtlStringToken,int32>"
-          },
-          "m_functions": {
-            "offset": 48,
-            "type": "CUtlVector<FunctionInfo_t>"
-          },
-          "m_variableMap": {
-            "offset": 104,
-            "type": "CUtlHashtable<CUtlStringToken,int32>"
-          },
-          "m_variables": {
-            "offset": 24,
-            "type": "CUtlVector<VariableInfo_t>"
-          }
+          "m_constantMap": 72,
+          "m_constants": 0,
+          "m_functionMap": 136,
+          "m_functions": 48,
+          "m_variableMap": 104,
+          "m_variables": 24
         },
         "metadata": [
           {
@@ -93,18 +51,9 @@
       },
       "ConstantInfo_t": {
         "fields": {
-          "m_flValue": {
-            "offset": 12,
-            "type": "float32"
-          },
-          "m_name": {
-            "offset": 0,
-            "type": "CUtlString"
-          },
-          "m_nameToken": {
-            "offset": 8,
-            "type": "CUtlStringToken"
-          }
+          "m_flValue": 12,
+          "m_name": 0,
+          "m_nameToken": 8
         },
         "metadata": [
           {
@@ -116,48 +65,21 @@
       },
       "FourQuaternions": {
         "fields": {
-          "w": {
-            "offset": 48,
-            "type": "fltx4"
-          },
-          "x": {
-            "offset": 0,
-            "type": "fltx4"
-          },
-          "y": {
-            "offset": 16,
-            "type": "fltx4"
-          },
-          "z": {
-            "offset": 32,
-            "type": "fltx4"
-          }
+          "w": 48,
+          "x": 0,
+          "y": 16,
+          "z": 32
         },
         "metadata": [],
         "parent": null
       },
       "FunctionInfo_t": {
         "fields": {
-          "m_bIsPure": {
-            "offset": 26,
-            "type": "bool"
-          },
-          "m_nIndex": {
-            "offset": 24,
-            "type": "FuseFunctionIndex_t"
-          },
-          "m_nParamCount": {
-            "offset": 20,
-            "type": "int32"
-          },
-          "m_name": {
-            "offset": 8,
-            "type": "CUtlString"
-          },
-          "m_nameToken": {
-            "offset": 16,
-            "type": "CUtlStringToken"
-          }
+          "m_bIsPure": 26,
+          "m_nIndex": 24,
+          "m_nParamCount": 20,
+          "m_name": 8,
+          "m_nameToken": 16
         },
         "metadata": [
           {
@@ -169,20 +91,14 @@
       },
       "FuseFunctionIndex_t": {
         "fields": {
-          "m_Value": {
-            "offset": 0,
-            "type": "uint16"
-          }
+          "m_Value": 0
         },
         "metadata": [],
         "parent": null
       },
       "FuseVariableIndex_t": {
         "fields": {
-          "m_Value": {
-            "offset": 0,
-            "type": "uint16"
-          }
+          "m_Value": 0
         },
         "metadata": [],
         "parent": null
@@ -659,14 +575,8 @@
       },
       "ManifestTestResource_t": {
         "fields": {
-          "m_child": {
-            "offset": 8,
-            "type": "CStrongHandle<InfoForResourceTypeManifestTestResource_t>"
-          },
-          "m_name": {
-            "offset": 0,
-            "type": "CUtlString"
-          }
+          "m_child": 8,
+          "m_name": 0
         },
         "metadata": [
           {
@@ -678,18 +588,9 @@
       },
       "NoiseOscillatorDef_t": {
         "fields": {
-          "m_flAmplitude": {
-            "offset": 8,
-            "type": "float32"
-          },
-          "m_flFrequency": {
-            "offset": 4,
-            "type": "float32"
-          },
-          "m_flPhase": {
-            "offset": 0,
-            "type": "float32"
-          }
+          "m_flAmplitude": 8,
+          "m_flFrequency": 4,
+          "m_flPhase": 0
         },
         "metadata": [
           {
@@ -701,54 +602,18 @@
       },
       "NoiseStreamDef_t": {
         "fields": {
-          "m_Oscillators": {
-            "offset": 56,
-            "type": "CUtlVector<NoiseOscillatorDef_t>"
-          },
-          "m_flOffset": {
-            "offset": 36,
-            "type": "float32"
-          },
-          "m_flOutputMax": {
-            "offset": 16,
-            "type": "float32"
-          },
-          "m_flOutputMin": {
-            "offset": 12,
-            "type": "float32"
-          },
-          "m_flScale": {
-            "offset": 20,
-            "type": "float32"
-          },
-          "m_flTurbulenceMix": {
-            "offset": 48,
-            "type": "float32"
-          },
-          "m_flTurbulenceScale": {
-            "offset": 44,
-            "type": "float32"
-          },
-          "m_nModifier": {
-            "offset": 4,
-            "type": "NoiseStreamModifier_t"
-          },
-          "m_nOctaves": {
-            "offset": 40,
-            "type": "int32"
-          },
-          "m_nTurbulence": {
-            "offset": 8,
-            "type": "NoiseStreamTurbulence_t"
-          },
-          "m_nType": {
-            "offset": 0,
-            "type": "NoiseStreamType_t"
-          },
-          "m_vOffsetRate": {
-            "offset": 24,
-            "type": "Vector"
-          }
+          "m_Oscillators": 56,
+          "m_flOffset": 36,
+          "m_flOutputMax": 16,
+          "m_flOutputMin": 12,
+          "m_flScale": 20,
+          "m_flTurbulenceMix": 48,
+          "m_flTurbulenceScale": 44,
+          "m_nModifier": 4,
+          "m_nOctaves": 40,
+          "m_nTurbulence": 8,
+          "m_nType": 0,
+          "m_vOffsetRate": 24
         },
         "metadata": [
           {
@@ -760,44 +625,20 @@
       },
       "PackedAABB_t": {
         "fields": {
-          "m_nPackedMax": {
-            "offset": 4,
-            "type": "uint32"
-          },
-          "m_nPackedMin": {
-            "offset": 0,
-            "type": "uint32"
-          }
+          "m_nPackedMax": 4,
+          "m_nPackedMin": 0
         },
         "metadata": [],
         "parent": null
       },
       "VariableInfo_t": {
         "fields": {
-          "m_eAccess": {
-            "offset": 16,
-            "type": "FuseVariableAccess_t"
-          },
-          "m_eVarType": {
-            "offset": 15,
-            "type": "FuseVariableType_t"
-          },
-          "m_nIndex": {
-            "offset": 12,
-            "type": "FuseVariableIndex_t"
-          },
-          "m_nNumComponents": {
-            "offset": 14,
-            "type": "uint8"
-          },
-          "m_name": {
-            "offset": 0,
-            "type": "CUtlString"
-          },
-          "m_nameToken": {
-            "offset": 8,
-            "type": "CUtlStringToken"
-          }
+          "m_eAccess": 16,
+          "m_eVarType": 15,
+          "m_nIndex": 12,
+          "m_nNumComponents": 14,
+          "m_name": 0,
+          "m_nameToken": 8
         },
         "metadata": [
           {

@@ -3,10 +3,7 @@
     "classes": {
       "ChangeAccessorFieldPathIndex_t": {
         "fields": {
-          "m_Value": {
-            "offset": 0,
-            "type": "int32"
-          }
+          "m_Value": 0
         },
         "metadata": [],
         "parent": null
