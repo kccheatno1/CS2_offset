@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-10-30 12:40:56.208900 UTC
+// 2026-10-31 00:57:05.660540400 UTC
 
 #pragma once
 
@@ -11,8 +11,8 @@ namespace cs2_dumper {
         // Module: client.dll
         namespace client_dll {
             constexpr std::ptrdiff_t dwCSGOInput = 0x257F980;
-            constexpr std::ptrdiff_t dwEntityList = 0x271EB08;
-            constexpr std::ptrdiff_t dwGameEntitySystem = 0x271EB08;
+            constexpr std::ptrdiff_t dwEntityList = 0x271EB28;
+            constexpr std::ptrdiff_t dwGameEntitySystem = 0x271EB28;
             constexpr std::ptrdiff_t dwGameEntitySystem_highestEntityIndex = 0x2120;
             constexpr std::ptrdiff_t dwGameRules = 0x2569378;
             constexpr std::ptrdiff_t dwGlobalVars = 0x2234108;
@@ -23,6 +23,7 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwPrediction = 0x25697D0;
             constexpr std::ptrdiff_t dwSensitivity = 0x2566BC8;
             constexpr std::ptrdiff_t dwSensitivity_sensitivity = 0x58;
+            constexpr std::ptrdiff_t dwServerConfirmedReservation = 0x2580E88;
             constexpr std::ptrdiff_t dwViewAngles = 0x2580008;
             constexpr std::ptrdiff_t dwViewMatrix = 0x256F1D0;
             constexpr std::ptrdiff_t dwViewRender = 0x256FB98;
