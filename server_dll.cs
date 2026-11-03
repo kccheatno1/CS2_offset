@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-10-31 00:57:05.660540400 UTC
+// 2026-11-03 02:13:41.014683100 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: server.dll
@@ -8908,7 +8908,7 @@ namespace CS2Dumper.Schemas {
             public const nint m_nMagnitude = 0x87C; // uint32
         }
         // Parent: None
-        // Field count: 190
+        // Field count: 191
         public static class CCSGameRules {
             public const nint m_bFreezePeriod = 0xD8; // bool
             public const nint m_bWarmupPeriod = 0xD9; // bool
@@ -9011,10 +9011,11 @@ namespace CS2Dumper.Schemas {
             public const nint m_numSpectatorsCountMax = 0xE04; // uint32
             public const nint m_numSpectatorsCountMaxTV = 0xE08; // uint32
             public const nint m_numSpectatorsCountMaxLnk = 0xE0C; // uint32
-            public const nint m_nCTsAliveAtFreezetimeEnd = 0xE18; // int32
-            public const nint m_nTerroristsAliveAtFreezetimeEnd = 0xE1C; // int32
-            public const nint m_bForceTeamChangeSilent = 0xE20; // bool
-            public const nint m_bLoadingRoundBackupData = 0xE21; // bool
+            public const nint m_bQueuedMatchmakingReportedRoundStatsPendingSend = 0xE18; // bool
+            public const nint m_nCTsAliveAtFreezetimeEnd = 0xE1C; // int32
+            public const nint m_nTerroristsAliveAtFreezetimeEnd = 0xE20; // int32
+            public const nint m_bForceTeamChangeSilent = 0xE24; // bool
+            public const nint m_bLoadingRoundBackupData = 0xE25; // bool
             public const nint m_nMatchInfoShowType = 0xE58; // int32
             public const nint m_flMatchInfoDecidedTime = 0xE5C; // float32
             public const nint mTeamDMLastWinningTeamNumber = 0xE78; // int32
