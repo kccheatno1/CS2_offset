@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-03 02:13:41.014683100 UTC
+// 2026-11-05 01:30:49.004932600 UTC
 
 pub const cs2_dumper = struct {
     pub const schemas = struct {
@@ -7303,7 +7303,7 @@ pub const cs2_dumper = struct {
                 pub const m_flActiveFollowStartTime: usize = 0x32A4; // GameTime_t
                 pub const m_followMinuteTimer: usize = 0x32A8; // CountdownTimer
                 pub const m_BlockDirectionTimer: usize = 0x32C8; // CountdownTimer
-                pub const m_bSpawnDyingParticles: usize = 0x32E2; // bool
+                pub const m_bSpawnDyingParticles: usize = 0x32E3; // bool
             };
             // Parent: CPhysicsProp
             // Field count: 5
