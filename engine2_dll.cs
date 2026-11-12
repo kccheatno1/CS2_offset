@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-05 01:30:49.004932600 UTC
+// 2026-11-12 07:21:11.857352500 UTC
 
 namespace CS2Dumper.Schemas {
     // Module: engine2.dll
@@ -342,9 +342,10 @@ namespace CS2Dumper.Schemas {
             public const nint m_nRenderHeight = 0x24; // int32
         }
         // Parent: None
-        // Field count: 1
+        // Field count: 2
         public static class EventClientPollNetworking_t {
             public const nint m_nTickCount = 0x0; // int32
+            public const nint m_nTotalTicks = 0x4; // int32
         }
         // Parent: None
         // Field count: 1
