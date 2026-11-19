@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-18 04:47:40.949652200 UTC
+// 2026-11-19 02:09:11.603950 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -16,6 +16,7 @@ pub mod cs2_dumper {
             pub const dwGlowManager: usize = 0x2553B90;
             pub const dwLocalPlayerController: usize = 0x252ED78;
             pub const dwLocalPlayerPawn: usize = 0x2557538;
+            pub const dwPlantedC4: usize = 0x24BD9E8;
             pub const dwPrediction: usize = 0x2557440;
             pub const dwSensitivity: usize = 0x25546C8;
             pub const dwSensitivity_sensitivity: usize = 0x58;

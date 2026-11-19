@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-18 04:47:40.949652200 UTC
+// 2026-11-19 02:09:11.603950 UTC
 
 #pragma once
 
@@ -19,6 +19,7 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwGlowManager = 0x2553B90;
             constexpr std::ptrdiff_t dwLocalPlayerController = 0x252ED78;
             constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x2557538;
+            constexpr std::ptrdiff_t dwPlantedC4 = 0x24BD9E8;
             constexpr std::ptrdiff_t dwPrediction = 0x2557440;
             constexpr std::ptrdiff_t dwSensitivity = 0x25546C8;
             constexpr std::ptrdiff_t dwSensitivity_sensitivity = 0x58;
